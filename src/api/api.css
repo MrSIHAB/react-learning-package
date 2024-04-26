@@ -1,0 +1,52 @@
+/*
+ * 
+ * This is the css file for api testing tutorial.
+ * 
+ */
+
+.apiContainer{
+    text-align: center;
+    width: 80vw;
+}
+.postPart::-webkit-scrollbar{
+    width: 0;
+}
+.postPart{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 600px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.cardContainer{
+    border: 2px solid #999;
+    border-radius: 15px;
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+}
+.cardTitle{
+    margin: 7px;
+    font-size: medium;
+}
+.cardThumb{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.author{
+    float: right;
+    margin-top: 2px;
+    margin-right: 7px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 7px;
+    border-radius: 5px;
+    background: #59a;
+    color: #fff;
+}

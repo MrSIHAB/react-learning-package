@@ -1,0 +1,39 @@
+.weatherWraper {
+  text-align: center;
+}
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 
+    #00000012 0px 1px 2px, #00000012 0px 2px 4px,
+    #00000012 0px 4px 8px, #00000012 0px 8px 16px,
+    #00000012 0px 16px 32px, #00000012 0px 32px 64px;
+}
+
+.reset{
+  background: #def;
+  border-radius: 10px;
+}
+.search {
+  width: 90px;
+  border-radius: 5px;
+  display: inline;
+  height: 30px;
+  padding: 0;
+  background: #cdf;
+  box-shadow: 
+    #00000012 0px 1px 2px, #00000012 0px 2px 4px,
+    #00000012 0px 4px 8px, #00000012 0px 0px 16px 4px;
+}
+.inputFeild {
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font-size: 19px;
+  background:honeydew;
+  padding: 4px 1rem;
+  box-shadow: 
+    #00000012 0px 1px 2px, #00000012 0px 2px 4px,
+    #00000012 0px 4px 8px, #00000012 0px 0px 16px 4px;
+}

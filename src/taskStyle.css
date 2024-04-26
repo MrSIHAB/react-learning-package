@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #001;
+}
+.btn{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: none;
+    font-weight: bolder;
+    background: #cdf;
+    box-shadow: 
+    #00000012 0px 1px 2px, #00000012 0px 2px 4px,
+    #00000012 0px 4px 8px, #00000012 0px 0px 16px 4px;
+}
+
+
+/* ---------------------------------------  Task Container  */
+.taskContainer{
+    margin: 5rem 0;
+    width: 400px;
+    min-height: 400px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #eff;
+}
+
+.taskContainer .containerHead{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.taskContainer .taskItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.taskItem .taskName{
+    width: 80%;
+    padding: 7px;
+}
+
+.taskBtn{
+    width: 80%;
+    margin: auto;
+    display: block;
+    background-color: #bbb;
+    color: #333;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all 300ms;
+}
+.taskBtn:hover{
+    filter: brightness(105%);
+}
