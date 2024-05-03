@@ -37,7 +37,7 @@ const Counter = () => {
     <div style={{ textAlign: "center", alignContent: "center" }} className="taskContainer" >
       <h2>Counter Component</h2>
       <p>Value = {count} </p>
-      {count % 2 == 0 ? <p>Even</p> : <Mount />}
+      {count % 2 === 0 ? <p>Even</p> : <Mount />}
       <button className="btn taskBtn" onClick={() => setCount(count + 1)}>
         Increment
       </button>
