@@ -1,0 +1,10 @@
+.memeWraper{
+    color: antiquewhite;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.btns{
+    margin-top: 30px;
+}

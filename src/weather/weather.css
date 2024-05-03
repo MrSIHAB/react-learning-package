@@ -1,14 +1,18 @@
 .weatherWraper {
   text-align: center;
+  position: relative;
 }
 .card {
   margin: 1rem;
   padding: 1rem;
+  position: relative;
+  background: #9fffff08;
   border-radius: 20px;
   box-shadow: 
     #00000012 0px 1px 2px, #00000012 0px 2px 4px,
     #00000012 0px 4px 8px, #00000012 0px 8px 16px,
-    #00000012 0px 16px 32px, #00000012 0px 32px 64px;
+    #00000012 0px 16px 32px, #00000012 0px 32px 64px,
+    #00000020 0 -10px 10px ;
 }
 
 .reset{
@@ -21,6 +25,8 @@
   display: inline;
   height: 30px;
   padding: 0;
+  position: relative;
+  z-index: 0;
   background: #cdf;
   box-shadow: 
     #00000012 0px 1px 2px, #00000012 0px 2px 4px,
@@ -28,12 +34,52 @@
 }
 .inputFeild {
   border-radius: 10px;
+  margin-right: 1rem;
   border: 0;
   outline: 0;
-  font-size: 19px;
+  font-size: 15px;
+  font-weight: bolder;
+  z-index: 1;
+  position: relative;
   background:honeydew;
-  padding: 4px 1rem;
+  padding: 7px 1.3rem;
   box-shadow: 
     #00000012 0px 1px 2px, #00000012 0px 2px 4px,
     #00000012 0px 4px 8px, #00000012 0px 0px 16px 4px;
+}
+.condition{
+  background: #fff;
+  color: #000;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 900;
+  font-family: ubuntu , Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border-radius: 25px;
+  box-shadow: 
+    #00000012 0px 1px 2px, #00000012 0px 2px 4px;
+}
+
+
+
+
+
+.night{
+  color: #ddd;
+  background: #111319;
+  
+}
+.night .condition{
+  filter: invert(1);
+}
+.night .inputFeild {
+  background: #333;
+  color: #ddd;
+}
+.night .btn{
+  background-color: #171f1f;
+  color: #ede;
 }

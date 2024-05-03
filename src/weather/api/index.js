@@ -11,8 +11,15 @@ const baseurl =
 
 //  getting data from city name and exporting that function
 export const getWeatherDataForCity = async (city) => {
-  let response = await fetch(`${baseurl}&q=${city}&aqi=yes`);
-  return await response.json();
+  try {
+    let response = await fetch(`${baseurl}&q=${city}&aqi=yes`);
+    return await response.json();
+  } catch (error) {
+    if (error) {
+      throw error
+    }
+  }
+
 };
 
 

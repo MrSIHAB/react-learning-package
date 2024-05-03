@@ -56,3 +56,9 @@ body{
 .taskBtn:hover{
     filter: brightness(105%);
 }
+
+@media (max-width: 400px) {
+    .taskContainer{
+        width: 100vw;
+    }
+}
