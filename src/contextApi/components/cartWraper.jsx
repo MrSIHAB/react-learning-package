@@ -3,8 +3,6 @@ import Item from "./item";
 
 import './cart.css'
 
-import { useContext } from "react";
-
 const CartWraper = () => {
 
   return (
