@@ -3,11 +3,9 @@ import Item from "./item";
 
 import './cart.css'
 
-import { CartContext } from "../context/Cart";
 import { useContext } from "react";
 
 const CartWraper = () => {
-  const cart = useContext(CartContext)
 
   return (
     <div className="taskContainer e-comCart">

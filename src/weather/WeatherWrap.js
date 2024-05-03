@@ -13,7 +13,7 @@ const WeatherWraper = () => {
   useEffect(() => {
     // get current location here
     weather.fetchUserCurrentLocationData();
-  }, []);
+  });
 
   return (
     <div
